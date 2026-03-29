@@ -1,0 +1,7 @@
+ExceptionCode,ExceptionDescription,ExceptionCategory,SeverityCode,TypicalDelayMinutes,ResponsibleParty,ActiveFlag
+WX,Weather Delay,Weather,High,720,Carrier,1
+DAMG,Damaged Shipment,Damage,High,1080,Carrier,1
+MSCN,Missed Scan,Process,Medium,180,Operations,1
+ADDR,Address Issue,Address,Medium,540,Customer,1
+MECH,Equipment Failure,Mechanical,High,660,Carrier,1
+CAP,Capacity Constraint,Capacity,Medium,300,Carrier,1

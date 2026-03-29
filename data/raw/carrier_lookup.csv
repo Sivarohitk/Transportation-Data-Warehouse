@@ -1,0 +1,13 @@
+CarrierCode,SCACCode,CarrierName,CarrierMode,CarrierTier,HomeCity,HomeStateProvince,ActiveFlag
+CAR001,ATLF,Atlas Freight,Truckload,National,Phoenix,AZ,1
+CAR002,CANY,Canyon Logistics,LTL,Regional,Denver,CO,1
+CAR003,DSRT,Desert Transport,Truckload,Regional,Las Vegas,NV,1
+CAR004,NRTH,Northline Carriers,Intermodal,National,Chicago,IL,1
+CAR005,BMFR,Blue Mesa Freight,Truckload,Regional,Albuquerque,NM,1
+CAR006,SUMD,Summit Delivery,Parcel,Last Mile,Salt Lake City,UT,1
+CAR007,WFLN,Western Freight Lines,Truckload,National,Los Angeles,CA,1
+CAR008,COPR,Copper State Logistics,LTL,Regional,Dallas,TX,1
+CAR009,PION,Pioneer Trucking,Truckload,Regional,Kansas City,MO,1
+CAR010,RPMC,Rapid Mile Carriers,Parcel,Last Mile,Atlanta,GA,1
+CAR011,SKLN,Skyline Freight,Intermodal,National,Seattle,WA,1
+CAR012,SNCT,Sun Coast Transport,Truckload,Regional,Miami,FL,1

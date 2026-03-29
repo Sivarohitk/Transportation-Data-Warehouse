@@ -1,0 +1,25 @@
+RouteCode,OriginLocationCode,DestinationLocationCode,ReferenceDistanceMiles,ReferenceTransitHours,RouteType,FuelZone
+RTE001,PHX_DC,LAX_DC,372.0,7.06,Regional,Mid Haul
+RTE002,PHX_DC,LAS_HUB,302.0,6.67,Regional,Mid Haul
+RTE003,PHX_DC,DAL_DC,1065.0,22.05,Long Haul,Long Haul
+RTE004,TUS_HUB,PHX_DC,118.0,2.47,Regional,Short Haul
+RTE005,LAS_HUB,DEN_DC,748.0,13.89,Long Haul,Mid Haul
+RTE006,LAX_DC,SAN_DEP,124.0,2.33,Regional,Short Haul
+RTE007,LAX_DC,SLC_HUB,690.0,12.39,Long Haul,Mid Haul
+RTE008,SLC_HUB,DEN_DC,518.0,11.25,Long Haul,Mid Haul
+RTE009,DEN_DC,KC_DEP,604.0,12.06,Long Haul,Mid Haul
+RTE010,ABQ_HUB,DAL_DC,645.0,14.22,Long Haul,Mid Haul
+RTE011,DAL_DC,HOU_HUB,241.0,5.06,Regional,Short Haul
+RTE012,DAL_DC,CHI_DC,968.0,18.96,Long Haul,Long Haul
+RTE013,KC_DEP,CHI_DC,510.0,11.25,Long Haul,Mid Haul
+RTE014,CHI_DC,DEN_DC,1003.0,21.17,Long Haul,Long Haul
+RTE015,ATL_HUB,MIA_DC,664.0,12.58,Long Haul,Mid Haul
+RTE016,ATL_HUB,ORL_DEP,439.0,8.52,Regional,Mid Haul
+RTE017,DEN_DC,SEA_DC,1331.0,27.94,Long Haul,Long Haul
+RTE018,SEA_DC,PDX_DEP,174.0,3.34,Regional,Short Haul
+RTE019,HOU_HUB,ATL_HUB,793.0,14.49,Long Haul,Mid Haul
+RTE020,CHI_DC,ATL_HUB,716.0,15.88,Long Haul,Mid Haul
+RTE021,DAL_DC,DEN_DC,781.0,14.29,Long Haul,Mid Haul
+RTE022,PHX_DC,ABQ_HUB,418.0,7.83,Regional,Mid Haul
+RTE023,OMA_HUB,CHI_DC,469.0,9.56,Regional,Mid Haul
+RTE024,DEN_DC,OMA_HUB,540.0,11.52,Long Haul,Mid Haul

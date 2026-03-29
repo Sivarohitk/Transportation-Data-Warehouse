@@ -1,0 +1,19 @@
+LocationCode,LocationName,LocationType,AddressLine1,City,StateProvince,CountryCode,PostalCode,Region,Latitude,Longitude,ActiveFlag
+PHX_DC,Phoenix Distribution Center,Distribution Center,1200 South 7th Avenue,Phoenix,AZ,US,85007,Southwest,33.4401,-112.0825,1
+TUS_HUB,Tucson Hub,Cross Dock,415 West Toole Avenue,Tucson,AZ,US,85701,Southwest,32.2226,-110.9747,1
+LAS_HUB,Las Vegas Hub,Hub,845 East Sahara Avenue,Las Vegas,NV,US,89104,West,36.1544,-115.1435,1
+LAX_DC,Los Angeles Distribution Center,Distribution Center,2400 Alameda Street,Los Angeles,CA,US,90058,West,34.0142,-118.2301,1
+SAN_DEP,San Diego Depot,Depot,775 Harbor Drive,San Diego,CA,US,92101,West,32.7066,-117.1606,1
+SLC_HUB,Salt Lake City Hub,Hub,550 West 200 South,Salt Lake City,UT,US,84101,Mountain,40.7619,-111.9084,1
+DEN_DC,Denver Distribution Center,Distribution Center,18600 East 48th Avenue,Denver,CO,US,80249,Mountain,39.78,-104.7738,1
+ABQ_HUB,Albuquerque Hub,Hub,700 1st Street NW,Albuquerque,NM,US,87102,Southwest,35.0917,-106.6494,1
+DAL_DC,Dallas Distribution Center,Distribution Center,2600 Commerce Street,Dallas,TX,US,75226,South Central,32.7847,-96.7756,1
+HOU_HUB,Houston Hub,Hub,9201 Airport Boulevard,Houston,TX,US,77061,South Central,29.6497,-95.2714,1
+KC_DEP,Kansas City Depot,Depot,420 Southwest Boulevard,Kansas City,MO,US,64108,Midwest,39.0875,-94.5964,1
+CHI_DC,Chicago Distribution Center,Distribution Center,1400 South Lumber Street,Chicago,IL,US,60607,Midwest,41.8625,-87.6465,1
+ATL_HUB,Atlanta Hub,Hub,1700 Central Avenue,Atlanta,GA,US,30337,Southeast,33.6407,-84.4277,1
+MIA_DC,Miami Distribution Center,Distribution Center,3200 Northwest 67th Avenue,Miami,FL,US,33122,Southeast,25.8048,-80.3029,1
+ORL_DEP,Orlando Delivery Depot,Depot,1020 Jetport Drive,Orlando,FL,US,32809,Southeast,28.4499,-81.3442,1
+SEA_DC,Seattle Distribution Center,Distribution Center,1801 13th Avenue South,Seattle,WA,US,98144,Pacific Northwest,47.5876,-122.3149,1
+PDX_DEP,Portland Delivery Depot,Depot,605 Northwest 13th Avenue,Portland,OR,US,97209,Pacific Northwest,45.5262,-122.6845,1
+OMA_HUB,Omaha Hub,Hub,4501 Abbott Drive,Omaha,NE,US,68110,Midwest,41.3032,-95.8941,1

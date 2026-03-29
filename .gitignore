@@ -1,0 +1,14 @@
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.dtproj.user
+*.databaseproj.user
+*.ispac
+__pycache__/
+.venv/
+*.pyc
+data/generated/*.csv
+powerbi/*.pbix.lock
+
