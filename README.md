@@ -46,53 +46,51 @@ Still manual in desktop tools:
 
 ```mermaid
 flowchart LR
-    subgraph SRC["Source Systems"]
-        A["`src` schema tables<br/>Carrier, Location, Route, Shipment,<br/>Shipment_Status_History, Delivery_Exception"]
-        B["Raw CSV feeds in `data/raw`<br/>carrier_lookup, locations, routes, shipments,<br/>daily_delivery_scan_events, delivery_exceptions,<br/>exception_code_lookup, route_distance_reference"]
+    subgraph SRC[Source Systems]
+        A[src tables]
+        B[data/raw csv]
     end
 
-    subgraph ORCH["Orchestration and Control"]
-        C["`meta.usp_Start_Batch`"]
-        D["SSIS packages<br/>or `etl.usp_Load_Stage_From_Source`"]
-        E["`etl.usp_Validate_Stage_Data`"]
-        F["`etl.usp_Run_Incremental_Load`"]
-        G["`meta.Watermark`<br/>`meta.Source_File_Log`<br/>`audit.Load_Audit`"]
+    subgraph ORCH[Batch and Orchestration]
+        C[start batch]
+        D[stage load]
+        E[stage validation]
+        F[incremental load]
+        G[watermarks and audit]
     end
 
-    subgraph STG["Staging and Validation"]
-        H["`stg.*_Raw` tables"]
-        I["`audit.Validation_Error`<br/>`audit.Stage_Row_Reject`"]
+    subgraph STG[Staging and Validation]
+        H[staging raw tables]
+        I[validation errors]
+        J[row rejects]
     end
 
-    subgraph DW["Dimensional Warehouse"]
-        J["Dimensions<br/>`DimDate`, `DimCarrier`, `DimLocation`,<br/>`DimRoute`, `DimDeliveryException`, `DimShipmentStatus`"]
-        K["Facts<br/>`FactShipment`, `FactDeliveryEvent`,<br/>`FactDeliveryException`"]
+    subgraph DW[Dimensional Warehouse]
+        K[dimensions]
+        L[facts]
     end
 
-    subgraph BI["Serving and Consumption"]
-        L["`rpt` views for SQL-side validation"]
-        M["Power BI semantic model<br/>Primary model = `dw` tables"]
-        N["SQL tests, data-quality reports,<br/>and KPI cross-checks"]
+    subgraph REP[Reporting and Consumption]
+        M[rpt views]
+        N[Power BI]
     end
 
     A --> D
     B --> D
     C --> D
     D --> H
+    D --> G
     H --> E
     E --> I
-    E --> F
-    F --> J
-    F --> K
     F --> G
-    J --> L
-    K --> L
-    J --> M
+    E --> J
+    E --> F
+    F --> K
+    F --> L
     K --> M
-    L --> N
+    L --> M
     K --> N
-    G --> N
-    I --> N
+    L --> N
 ```
 
 More detail is in `docs/ARCHITECTURE.md`.
